@@ -1,4 +1,5 @@
 {
+  "home": "https://github.com/ragulthakur8431/react-gsheet-crud.git",
   "name": "react-gsheet-crud",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deoloy": "gh-pages -d dist",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
